@@ -1,0 +1,98 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* margin: 20%; */
+    margin-left: 30%;
+    margin-right: 30%;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.box h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.boxinput {
+    margin-top: 20px;
+}
+
+.boxinput h4 {
+    margin: 5px 0;
+    color: #555;
+}
+
+.boxinput input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Remember {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.Remember i {
+    margin-right: 5px;
+    color: red;
+}
+
+.logbtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logbtn:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+#google-btn {
+    margin-top: 20px;
+}
+
+#google-btn button {
+    background-color: #db4437;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#google-btn button:hover {
+    background-color: #c1351b;
+}
+.btn{
+    margin-left: 37%;
+}
