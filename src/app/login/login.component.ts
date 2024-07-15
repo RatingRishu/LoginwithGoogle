@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
       callback: (resp: any) => {
         this.handleLogin(resp);
 
-        console.log(resp)
+        // console.log(resp)
       }
     });
     google.accounts.id.renderButton(document.getElementById("google-btn"),
